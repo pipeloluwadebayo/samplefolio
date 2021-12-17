@@ -11238,6 +11238,13 @@ body {
   background-color: #f8f9fa;
 }
 
+.socials {
+  transition: transform 0.3s ease-out;
+}
+.socials:hover {
+  transform: translateY(8px);
+}
+
 .skills {
   padding: 0 0 5rem 0;
 }
