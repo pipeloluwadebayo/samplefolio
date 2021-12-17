@@ -1,0 +1,14 @@
+.navbar{
+    background: $gray-100;
+    a{
+        text-decoration: none;
+        color: $lightCoral;
+        font-weight: 700;
+        font-size: medium;
+        padding: 0 0.7rem;
+    }
+    img{
+        border: transparent $gray-200;
+        border-radius: 50%;
+    }
+}

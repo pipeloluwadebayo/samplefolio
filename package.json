@@ -1,0 +1,29 @@
+{
+  "name": "samplefolio",
+  "version": "1.0.0",
+  "description": "portfolio template",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch SCSS:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeloluwadebayo/samplefolio.git"
+  },
+  "author": "Pipeloluwa Adebayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipeloluwadebayo/samplefolio/issues"
+  },
+  "homepage": "https://github.com/pipeloluwadebayo/samplefolio#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
