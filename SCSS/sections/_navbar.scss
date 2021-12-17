@@ -1,14 +1,32 @@
 .navbar{
     background: $gray-100;
+
     a{
+        list-style-type: none;
         text-decoration: none;
         color: $lightCoral;
-        font-weight: 700;
+        font-weight: 500;
         font-size: medium;
-        padding: 0 0.7rem;
+        padding: 0.5 1rem;
+
+        &:hover{
+            color: $gray-600;
+        }
     }
     img{
-        border: transparent $gray-200;
-        border-radius: 50%;
+        border: 5px transparent $gray-200;
+        border-radius: 75%;
+        max-width: 100px;
+    }
+    button{
+        color:$lightCoral;
+    }
+    .dropdown-menu{
+        background-color: $gray-100;
+    }
+    .drop{
+        color: $lightSalmon;
+        background-color: $gray-100;
     }
 }
+

@@ -11212,15 +11212,30 @@ body {
   background: #f8f9fa;
 }
 .navbar a {
+  list-style-type: none;
   text-decoration: none;
   color: #F08080;
-  font-weight: 700;
+  font-weight: 500;
   font-size: medium;
-  padding: 0 0.7rem;
+  padding: 0.5 1rem;
+}
+.navbar a:hover {
+  color: #6c757d;
 }
 .navbar img {
-  border: transparent #e9ecef;
-  border-radius: 50%;
+  border: 5px transparent #e9ecef;
+  border-radius: 75%;
+  max-width: 100px;
+}
+.navbar button {
+  color: #F08080;
+}
+.navbar .dropdown-menu {
+  background-color: #f8f9fa;
+}
+.navbar .drop {
+  color: #FFA07A;
+  background-color: #f8f9fa;
 }
 
 .skills {
@@ -11291,6 +11306,13 @@ body {
   visibility: visible;
   transition-duration: 1s;
   transition-property: all;
+}
+
+.footer {
+  background: #f8f9fa;
+}
+.footer a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
